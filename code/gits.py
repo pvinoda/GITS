@@ -28,6 +28,7 @@ from gits_diff import gits_diff
 from gits_branch import gits_branch
 from gits_init import gits_init
 from gits_pull import gits_pull
+from gits_stash import gits_stash
 
 logger_status = init_gits_logger()
 if not logger_status:
