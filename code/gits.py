@@ -177,5 +177,8 @@ gits_pull_subparser.add_argument("--branch", nargs="?", default=False,
                                  required=False)
 gits_pull_subparser.set_defaults(func=gits_pull)
 
+gits_stash_subparser = subparsers.add_parser("stash")
+gits_stash_subparser.set_defaults(func=gits_stash)
+
 args = parser.parse_args()
 args.func(args)

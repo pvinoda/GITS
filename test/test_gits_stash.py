@@ -4,6 +4,7 @@ import unittest
 from unittest.mock import patch, Mock
 from gits_stash import gits_stash  # Import the module you want to test
 
+
 class TestGitsStash(unittest.TestCase):
 
     @patch("builtins.input", side_effect=["Y", "Custom Stash Label"])
@@ -35,6 +36,7 @@ class TestGitsStash(unittest.TestCase):
         args = None  # You can pass the args if needed
         result = gits_stash.gits_stash(args)
         self.assertTrue(result, "gits_stash function should return True")
+
 
 if __name__ == '__main__':
     unittest.main()
