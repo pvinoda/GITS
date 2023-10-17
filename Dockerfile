@@ -1,4 +1,4 @@
-FROM python:3.7.5 
+FROM python:3.11.5 
 
 ADD ./code/gits.py .
 
