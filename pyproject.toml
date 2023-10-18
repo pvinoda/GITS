@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "GITS"
+name = "gits"
 version = "0.2.0"
 description = "An abstraction over git terminal setup to simplify version control for developers."
 authors = ["Prabhanjan Vinoda Bharadwaj"]
@@ -10,6 +10,7 @@ pytest = "*"
 mock = "*"
 coverage = "*"
 flake8 = "3.8.4"
+tox = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
