@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "GITS"
+version = "0.2.0"
+description = "An abstraction over git terminal setup to simplify version control for developers."
+authors = ["Prabhanjan Vinoda Bharadwaj"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pytest = "*"
+mock = "*"
+coverage = "*"
+flake8 = "3.8.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
