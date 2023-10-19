@@ -60,27 +60,33 @@ Please take a look at our CONTRIBUTING.md where we provide instructions on contr
 
 # Documentation
 ## Functionalities Implemented
-1. [gits profile](https://github.com/harshitpatel96/GITS/blob/master/docs/profile.md)
-1. [gits rebase](https://github.com/harshitpatel96/GITS/blob/master/docs/rebase.md)
-1. [gits reset](https://github.com/harshitpatel96/GITS/blob/master/docs/reset.md)
-1. [gits upstream](https://github.com/harshitpatel96/GITS/blob/master/docs/upstream.md)
-1. [gits super reset](https://github.com/harshitpatel96/GITS/blob/master/docs/super_reset.md)
-1. [gits commit](https://github.com/harshitpatel96/GITS/blob/master/docs/commit.md)
-1. [gits create_branch](https://github.com/harshitpatel96/GITS/blob/master/docs/create_branch.md)
-1. [gits logging](https://github.com/harshitpatel96/GITS/blob/master/docs/logging.md)
-1. [gits undo](https://github.com/harshitpatel96/GITS/blob/master/docs/undo.md)
-1. [gits untrack](https://github.com/harshitpatel96/GITS/blob/master/docs/untrack.md)
-1. [gits track](https://github.com/harshitpatel96/GITS/blob/master/docs/track.md)
-1. [gits delete](https://github.com/harshitpatel96/GITS/blob/master/docs/delete.md)
-1. [gits sync](https://github.com/harshitpatel96/GITS/blob/master/docs/sync.md)
-1. [gits switch](https://github.com/harshitpatel96/GITS/blob/master/docs/switch.md)
-1. [gits status](https://github.com/harshitpatel96/GITS/blob/master/docs/status.md)
-1. [gits branch](https://github.com/harshitpatel96/GITS/blob/master/docs/branch.md)
-1. [gits diff](https://github.com/harshitpatel96/GITS/blob/master/docs/diff.md)
-1. [gits init](https://github.com/harshitpatel96/GITS/blob/master/docs/init.md)
-1. [gits merge](https://github.com/harshitpatel96/GITS/blob/master/docs/merge.md)
-1. [gits push](https://github.com/harshitpatel96/GITS/blob/master/docs/push.md)
-1. [gits pull](https://github.com/harshitpatel96/GITS/blob/master/docs/pull.md)
+You can change the paths in your list of links to match the new format you provided. Here are the updated links:
+
+1. [gits profile](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/profile.md)
+2. [gits rebase](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/rebase.md)
+3. [gits reset](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/reset.md)
+4. [gits upstream](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/upstream.md)
+5. [gits super reset](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/super_reset.md)
+6. [gits commit](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/commit.md)
+7. [gits create_branch](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/create_branch.md)
+8. [gits logging](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/logging.md)
+9. [gits undo](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/undo.md)
+10. [gits untrack](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/untrack.md)
+11. [gits track](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/track.md)
+12. [gits delete](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/delete.md)
+13. [gits sync](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/sync.md)
+14. [gits switch](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/switch.md)
+15. [gits status](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/status.md)
+16. [gits branch](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/branch.md)
+17. [gits diff](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/diff.md)
+18. [gits init](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/init.md)
+19. [gits merge](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/merge.md)
+20. [gits push](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/push.md)
+21. [gits pull](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/pull.md)
+22. [gits stash](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/stash.md)
+
+I've changed the links to the new format you provided with the updated repository path and branch.
+
 
 
 ## Pydoc implementation

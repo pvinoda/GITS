@@ -1,0 +1,89 @@
+action: GLOB, msg: packaging
+cwd: /Users/pvb/MyProjects/GITS
+cmd: /Users/pvb/Library/Caches/pypoetry/virtualenvs/gits-7phXCQeK-py3.11/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing GITS.egg-info/PKG-INFO
+writing dependency_links to GITS.egg-info/dependency_links.txt
+writing requirements to GITS.egg-info/requires.txt
+writing top-level names to GITS.egg-info/top_level.txt
+reading manifest file 'GITS.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'GITS.egg-info/SOURCES.txt'
+running check
+creating GITS-0.1
+creating GITS-0.1/GITS.egg-info
+creating GITS-0.1/test
+copying files to GITS-0.1...
+copying LICENSE -> GITS-0.1
+copying README.md -> GITS-0.1
+copying pyproject.toml -> GITS-0.1
+copying setup.py -> GITS-0.1
+copying GITS.egg-info/PKG-INFO -> GITS-0.1/GITS.egg-info
+copying GITS.egg-info/SOURCES.txt -> GITS-0.1/GITS.egg-info
+copying GITS.egg-info/dependency_links.txt -> GITS-0.1/GITS.egg-info
+copying GITS.egg-info/requires.txt -> GITS-0.1/GITS.egg-info
+copying GITS.egg-info/top_level.txt -> GITS-0.1/GITS.egg-info
+copying test/test_changedir.py -> GITS-0.1/test
+copying test/test_gits_add.py -> GITS-0.1/test
+copying test/test_gits_branch.py -> GITS-0.1/test
+copying test/test_gits_commit.py -> GITS-0.1/test
+copying test/test_gits_create_branch.py -> GITS-0.1/test
+copying test/test_gits_delete.py -> GITS-0.1/test
+copying test/test_gits_diff.py -> GITS-0.1/test
+copying test/test_gits_init.py -> GITS-0.1/test
+copying test/test_gits_merge.py -> GITS-0.1/test
+copying test/test_gits_profile.py -> GITS-0.1/test
+copying test/test_gits_pull.py -> GITS-0.1/test
+copying test/test_gits_push.py -> GITS-0.1/test
+copying test/test_gits_rebase.py -> GITS-0.1/test
+copying test/test_gits_reset.py -> GITS-0.1/test
+copying test/test_gits_set.py -> GITS-0.1/test
+copying test/test_gits_stash.py -> GITS-0.1/test
+copying test/test_gits_status.py -> GITS-0.1/test
+copying test/test_gits_switch.py -> GITS-0.1/test
+copying test/test_gits_sync.py -> GITS-0.1/test
+copying test/test_gits_track.py -> GITS-0.1/test
+copying test/test_gits_undo.py -> GITS-0.1/test
+copying test/test_gits_untrack.py -> GITS-0.1/test
+copying test/test_helper.py -> GITS-0.1/test
+Writing GITS-0.1/setup.cfg
+creating '.tox/dist/GITS-0.1.zip' and adding 'GITS-0.1' to it
+adding 'GITS-0.1'
+adding 'GITS-0.1/test'
+adding 'GITS-0.1/GITS.egg-info'
+adding 'GITS-0.1/PKG-INFO'
+adding 'GITS-0.1/LICENSE'
+adding 'GITS-0.1/pyproject.toml'
+adding 'GITS-0.1/README.md'
+adding 'GITS-0.1/setup.py'
+adding 'GITS-0.1/setup.cfg'
+adding 'GITS-0.1/test/test_gits_create_branch.py'
+adding 'GITS-0.1/test/test_gits_pull.py'
+adding 'GITS-0.1/test/test_helper.py'
+adding 'GITS-0.1/test/test_gits_add.py'
+adding 'GITS-0.1/test/test_gits_sync.py'
+adding 'GITS-0.1/test/test_changedir.py'
+adding 'GITS-0.1/test/test_gits_status.py'
+adding 'GITS-0.1/test/test_gits_untrack.py'
+adding 'GITS-0.1/test/test_gits_track.py'
+adding 'GITS-0.1/test/test_gits_undo.py'
+adding 'GITS-0.1/test/test_gits_diff.py'
+adding 'GITS-0.1/test/test_gits_reset.py'
+adding 'GITS-0.1/test/test_gits_stash.py'
+adding 'GITS-0.1/test/test_gits_delete.py'
+adding 'GITS-0.1/test/test_gits_rebase.py'
+adding 'GITS-0.1/test/test_gits_profile.py'
+adding 'GITS-0.1/test/test_gits_switch.py'
+adding 'GITS-0.1/test/test_gits_push.py'
+adding 'GITS-0.1/test/test_gits_commit.py'
+adding 'GITS-0.1/test/test_gits_set.py'
+adding 'GITS-0.1/test/test_gits_branch.py'
+adding 'GITS-0.1/test/test_gits_merge.py'
+adding 'GITS-0.1/test/test_gits_init.py'
+adding 'GITS-0.1/GITS.egg-info/PKG-INFO'
+adding 'GITS-0.1/GITS.egg-info/SOURCES.txt'
+adding 'GITS-0.1/GITS.egg-info/requires.txt'
+adding 'GITS-0.1/GITS.egg-info/top_level.txt'
+adding 'GITS-0.1/GITS.egg-info/dependency_links.txt'
+removing 'GITS-0.1' (and everything under it)
