@@ -84,6 +84,7 @@ You can change the paths in your list of links to match the new format you provi
 20. [gits push](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/push.md)
 21. [gits pull](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/pull.md)
 22. [gits stash](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/stash.md)
+23. [gits squash](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/squash.md)
 
 I've changed the links to the new format you provided with the updated repository path and branch.
 
