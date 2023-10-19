@@ -29,6 +29,7 @@ from gits_branch import gits_branch
 from gits_init import gits_init
 from gits_pull import gits_pull
 from gits_stash import gits_stash
+from gits_viz import gits_viz_func
 
 logger_status = init_gits_logger()
 if not logger_status:
@@ -179,6 +180,12 @@ gits_pull_subparser.set_defaults(func=gits_pull)
 
 gits_stash_subparser = subparsers.add_parser("stash")
 gits_stash_subparser.set_defaults(func=gits_stash)
+
+gits_viz_subparser = subparsers.add_parser('viz')
+gits_viz_subparser.add_argument('-g', help="flag to visualize branches",required=False,action='store_true')
+gits_viz_subparser.add_argument('-f', help="file name for graph output image",required=False)
+gits_viz_subparser.add_argument('-s', help="flag to set visualize a simplified graph",required=False,action='store_true')
+gits_viz_subparser.set_defaults(func=gits_viz_func)
 
 args = parser.parse_args()
 args.func(args)
