@@ -16,11 +16,18 @@ def gits_commit_func(args):
         subprocess_command.append("git")
         subprocess_command.append("commit")
         commit_message = args.m
-        if not commit_message:
+        if commit_message == "1":
+            new_commit_message = "Update Readme.md"
+        elif commit_message == "2":
+            new_commit_message = "*** empty log message ***"
+        else:
+            new_commit_message = commit_message
+
+        if not new_commit_message:
             print("ERROR: gits commit message not present, aborting")
             return False
         subprocess_command.append("-m")
-        subprocess_command.append(commit_message)
+        subprocess_command.append(new_commit_message)
         if not args.amend:
             # do nothing
             pass
@@ -28,8 +35,7 @@ def gits_commit_func(args):
             subprocess_command.append("--amend")
 
         # print(subprocess_command)
-        process = subprocess.Popen(
-            subprocess_command, stdout=PIPE, stderr=PIPE)
+        process = subprocess.Popen(subprocess_command, stdout=PIPE, stderr=PIPE)
         stdout, stderr = process.communicate()
         print("your changes committed successfully.")
 
