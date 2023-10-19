@@ -41,7 +41,7 @@ def gits_squash(args):
                                     stderr=PIPE)
         stdout_add, stderr1_add = process2.communicate()
         print(stdout_add)
-        
+
         fresh_commiter = list()
         fresh_commiter.append("git")
         fresh_commiter.append("commit")
