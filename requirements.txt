@@ -1,13 +1,6 @@
-<<<<<<< Updated upstream
 pytest
 mock
 coverage
 flake8==3.8.4
 pre-commit
 black
-=======
-    pytest
-    mock
-    coverage
-    flake8==3.8.4
->>>>>>> Stashed changes
