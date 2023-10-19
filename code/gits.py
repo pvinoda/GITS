@@ -29,6 +29,7 @@ from gits_branch import gits_branch
 from gits_init import gits_init
 from gits_pull import gits_pull
 from gits_stash import gits_stash
+from gits_squash import gits_squash
 
 logger_status = init_gits_logger()
 if not logger_status:
@@ -52,15 +53,6 @@ gits_add_subparser.add_argument('file_names',
                                 nargs='+',
                                 help='all file names')
 gits_add_subparser.set_defaults(func=gits_add_func)
-
-gits_commit_subparser = subparsers.add_parser('commit')
-gits_commit_subparser.add_argument('-m',
-                                   required=True,
-                                   help='git commit message')
-gits_commit_subparser.add_argument('--amend',
-                                   action='store_true',
-                                   help='amend commit message')
-gits_commit_subparser.set_defaults(func=gits_commit_func)
 
 gits_create_subparser = subparsers.add_parser('create')
 gits_create_subparser.add_argument('-b', help="branch name to create")
@@ -179,6 +171,22 @@ gits_pull_subparser.set_defaults(func=gits_pull)
 
 gits_stash_subparser = subparsers.add_parser("stash")
 gits_stash_subparser.set_defaults(func=gits_stash)
+
+gits_commit_subparser = subparsers.add_parser('commit')
+gits_commit_subparser.add_argument('-m',
+                                   required=True,
+                                   help='git commit message')
+
+
+gits_squash_subparser = subparsers.add_parser('squash')
+gits_squash_subparser.add_argument('-n',
+                                   required=True,
+                                   help='number of commits to squash')
+gits_squash_subparser.add_argument('-m',
+                                   required=True,
+                                   help='git squash commit message')
+
+gits_squash_subparser.set_defaults(func=gits_squash)
 
 args = parser.parse_args()
 args.func(args)
