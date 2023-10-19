@@ -1,10 +1,10 @@
-# About gits profile
+# About gits stash
 The stash command in Git is used to temporarily save changes that you have made in your working directory but do 
 not want to commit yet. It allows you to set aside your changes and return your working directory to the last committed 
-state. This can be useful in various scenarios:
+state. 
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_stash.py).
+The code that implements the abovementioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_stash.py).
 
 # Code Description
 The gits stash generates an input prompt that asks for a label. If no label is provided, it saves with a random stash ID.
@@ -19,6 +19,12 @@ stashes for identification and lists all stashes in the repository, making it ea
 Use the command in following way to stash your changes. Respond to the prompts to store labels to your changes.
 The state of your stash is immediately displayed so that you can visualize what's going on inside.
 ```
-$ gits stash
+$ gits stash 
+- Do you want to label your stash to identify the contents in future? (Y/N)
+$ Y
+- Please enter the message label now !!
+$ stashing the documentation changes
+- Here's what your current stash looks like..
+(Entire stash displayed for maintenance purposes)
 
 ```

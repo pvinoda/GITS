@@ -63,6 +63,7 @@ Please take a look at our CONTRIBUTING.md where we provide instructions on contr
 You can change the paths in your list of links to match the new format you provided. Here are the updated links:
 
 
+
 1. [gits profile](https://github.com/pvinoda/GITS/blob/master/docs/profile.md)
 2. [gits rebase](https://github.com/pvinoda/GITS/blob/master/docs/rebase.md)
 3. [gits reset](https://github.com/pvinoda/GITS/blob/master/docs/reset.md)
@@ -88,10 +89,6 @@ You can change the paths in your list of links to match the new format you provi
 23. [gits squash](https://github.com/pvinoda/GITS/blob/master/docs/squash.md)
 
 These links now point to the "master" branch instead of "phase2_se23_team71" in your GitHub repository.
-
-I've changed the links to the new format you provided with the updated repository path and branch.
-
-
 
 ## Pydoc implementation
 We have tried to write as much documentation as possible. You can use pydoc to go through the documentation. 
