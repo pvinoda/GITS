@@ -166,3 +166,4 @@ Here are some measures that can help compare the results between traditional git
 Along with quantitative measures described above, few qualitative measures can help to assess the performance better.
 1. Familiarity with traditional git
 2. hardness of the task
+
