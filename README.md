@@ -14,8 +14,9 @@
 
 ![Lines of code](https://img.shields.io/tokei/lines/github/harshitpatel96/GITS)
 
-[![](https://github.com/pvinoda/GITS/blob/master/GITSvGIT.jpeg)](https://youtu.be/6Y8_RQecnZ8 "GITS demo")
+[![](https://github.com/pvinoda/GITS/blob/master/GITSvGIT.jpeg)](https://www.youtube.com/watch?v=b5-aySJRoMc "GITS demo")
 
+## [Link to the Video Demo of GITS](https://www.youtube.com/watch?v=b5-aySJRoMc)
 # The What??
 ## About GITS
 GITS simplifies the often cumbersome and confusing commands of git to provide a user friendly experience to beginners in version control, as well as making it time efficient for proficient users. GITS also adds multiple features on top of git functionalities to provide a richer experience. 
