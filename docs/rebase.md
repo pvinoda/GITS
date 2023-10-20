@@ -5,7 +5,7 @@ This is the most common scenario.
 The original GIT rebase command is a little un-intuitive and there is always a confusion, about the source branch and the destination branch.
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_rebase.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_rebase.py).
 
 # Code Description
 ## Functions

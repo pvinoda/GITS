@@ -3,7 +3,7 @@ This command is useful when the changes you've made after last commit is not wor
 Be careful while using this command because changes present in the working directory will be lost after execution of this command.
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_undo.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_undo.py).
 
 # Code Description
 ## Functions

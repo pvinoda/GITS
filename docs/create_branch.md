@@ -4,7 +4,7 @@ The idea behind this is that this new branch should have all the latest commits 
 working on them.
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_create_branch.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_create_branch.py).
 
 # Code Description
 ## Functions

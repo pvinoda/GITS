@@ -3,7 +3,7 @@ This command is used to move files from current working directory to the staging
 Only those files which are moved to the staging area are considered for the upcoming commits.  
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_track.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_track.py).
 
 # Code Description
 ## Functions

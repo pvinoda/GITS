@@ -2,7 +2,7 @@
 This command is useful for switching between two branches during implementation.
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_switch.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_switch.py).
 
 # Code Description
 ## Functions

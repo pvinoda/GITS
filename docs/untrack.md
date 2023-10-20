@@ -4,7 +4,7 @@ This command moves files from staging area to the working directory back.
 These untracked files will not be considered for the upcoming commits.
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_untrack.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_untrack.py).
 
 # Code Description
 ## Functions

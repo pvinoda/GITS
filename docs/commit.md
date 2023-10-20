@@ -2,7 +2,7 @@
 This command is used to commit changes present inside the staging area. 
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_commit.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_commit.py).
 
 # Code Description
 ## Functions

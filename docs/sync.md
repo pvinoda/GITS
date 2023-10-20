@@ -4,7 +4,7 @@ In this type of development, it is necessary to keep the development branch upto
 gits sync command basically sync the current branch with upstream trunk (main/master) branch by first syncing the trunk branch and rebasing current branch on the synced trunk.
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_sync.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_sync.py).
 
 # Code Description
 ## Functions

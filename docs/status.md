@@ -5,7 +5,7 @@ This function allows users to see status about
 - changes to the files which are not being tracked.
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_status.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_status.py).
 
 # Code Description
 ## Functions

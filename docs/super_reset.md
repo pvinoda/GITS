@@ -5,7 +5,7 @@ It will remove the current repository.
 It will clone it again, and add all the remote branches to this freshly cloned repository.
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_super_reset.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_super_reset.py).
 
 # Code Description
 ## Functions

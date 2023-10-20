@@ -5,7 +5,7 @@ This functionality is useful when you have commited a mistake to the remote repo
 want it be visible in your commit history.
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_delete.py)
+The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_delete.py)
 
 # Code Description
 ## Functions

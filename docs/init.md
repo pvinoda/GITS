@@ -3,7 +3,7 @@ This function allows user to transform current directory into a Git repository.
 It also allow user to clone an already existing repository.
 
 # Location of Code
-The code that implements this gits functionality is located [here](https://github.com/harshitpatel96/GITS/blob/master/code/gits_init.py)
+The code that implements this gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_init.py)
 
 # Code Description
 ## Functions
