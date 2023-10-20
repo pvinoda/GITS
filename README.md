@@ -2,10 +2,11 @@
 # GITS 
 ### GIT Simplified
 
-![GitHub](https://img.shields.io/github/license/harshitpatel96/GITS)
+![GitHub](https://img.shields.io/github/license/pvinoda/GITS)
+
 [![Build Status](https://travis-ci.com/harshitpatel96/GITS.svg?branch=master)](https://travis-ci.com/harshitpatel96/GITS)
 [![codecov](https://codecov.io/gh/harshitpatel96/GITS/branch/master/graph/badge.svg?token=G6RG52G2YO)](https://codecov.io/gh/harshitpatel96/GITS/)
-![YouTube Video Views](https://img.shields.io/youtube/views/6Y8_RQecnZ8?style=social)
+![YouTube Video Views](https://img.shields.io/youtube/views/b5-aySJRoMc)
 
 [![DOI](https://zenodo.org/badge/704961751.svg)](https://zenodo.org/doi/10.5281/zenodo.10023186)
 
