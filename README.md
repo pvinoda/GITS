@@ -16,9 +16,43 @@
 
 [![](https://img.youtube.com/vi/6Y8_RQecnZ8/hqdefault.jpg)](https://youtu.be/6Y8_RQecnZ8 "GITS demo")
 
-# About GITS
-GITS streamlines most frequently performed workflows using fewer commands which is so much easier and better than usual.
-Git-Simplified AKA GITS can be thought of wrapper around major Git functionalities.
+# The What??
+## About GITS
+GITS simplifies the often cumbersome and confusing commands of git to provide a user friendly experience to beginners in version control, as well as making it time efficient for proficient users. GITS also adds multiple features on top of git functionalities to provide a richer experience. 
+
+
+# The Why ??
+
+##Motivation
+Git is the most popular version control system used by developers all around the world. Given its ubiquity, most newbies find it daunting to understand some of the commands in Git.
+We aim to simplify some commands by make them more powerful by combining related commands into one intuitive command. We also alleviate confusion in some commands by making them more intuitive.
+We hope that these features will help amateurs as well as experienced developers to use git. 
+
+##Key features
+
+1. ###Interactive GUI
+   We provide a simple yet effective GUI which takes in commands as input and then executes them. This makes it easy for users unfamiliar with the terminal.
+
+2. ###Advanced Commit Functionality
+   
+  
+4. ###Squash Command
+   We introduce the gits squash command that combines changes of last N commits and squash them into one. The number N can be provided using the -N argument, and the combined message for the commit is provided using the -M argument 
+   
+5. ###Advanced Visualisation Capabilities
+   We introduce gits viz command that provides the git log functionality along with the feature that allows users to download a Directed Acyclic Graph Representation of the hierarchy of tags and branches 
+
+## Potential Ideas for Phase 3
+
+1. ### Enhancing the GUI to include advanced functionality 
+   Contributors can think of enhancing the GUI implemented here to include branch information & commit history. They can also eschew the use of commands by introducing GUI elements to perform the functionality.
+
+2. ### Suggestive command line interaction
+   A good addition to the project would be to provide suggestive messages to the user when they enter a wrong or unintended command. This functionality can be extended to the oft misinterpreted/confusing commands.
+
+3. ### Make the project more accessible by making GITS commands accessible to the local system.
+   The lacunae that exists currently is that we need to clone the repository for each project to utilise GITS functionality. A feature that can be added is to make this global to the system where the repo is cloned. 
+
 
 # Installation for Linux
 1. Clone GITS Repo
@@ -55,64 +89,48 @@ virtual machine might be preferred.
 
     Please refer this link to enable WSL : https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
-# How to Contribute?
-Please take a look at our CONTRIBUTING.md where we provide instructions on contributing to the repo and help us in enhancing the current video conferencing platforms.
 
 # Documentation
 ## Functionalities Implemented
-You can change the paths in your list of links to match the new format you provided. Here are the updated links:
+These are the functionalities that we have implemented. The links are updated to point to the individual documentation.
+
+1. [gits profile](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/profile.md)
+2. [gits rebase](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/rebase.md)
+3. [gits stash](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/stash.md)
+5. [gits viz](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/viz.md)
+6. [gits reset](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/reset.md)
+7. [gits upstream](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/upstream.md)
+8. [gits super reset](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/super_reset.md)
+9. [gits commit](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/commit.md)
+10. [gits create_branch](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/create_branch.md)
+11. [gits logging](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/logging.md)
+12. [gits undo](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/undo.md)
+13. [gits untrack](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/untrack.md)
+14. [gits track](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/track.md)
+15. [gits delete](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/delete.md)
+16. [gits sync](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/sync.md)
+17. [gits switch](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/switch.md)
+18. [gits status](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/status.md)
+19. [gits branch](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/branch.md)
+20. [gits diff](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/diff.md)
+21. [gits init](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/init.md)
+22. [gits merge](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/merge.md)
+23. [gits push](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/push.md)
+24. [gits pull](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/pull.md)
 
 
-
-1. [gits profile](https://github.com/pvinoda/GITS/blob/master/docs/profile.md)
-2. [gits rebase](https://github.com/pvinoda/GITS/blob/master/docs/rebase.md)
-3. [gits reset](https://github.com/pvinoda/GITS/blob/master/docs/reset.md)
-4. [gits upstream](https://github.com/pvinoda/GITS/blob/master/docs/upstream.md)
-5. [gits super reset](https://github.com/pvinoda/GITS/blob/master/docs/super_reset.md)
-6. [gits commit](https://github.com/pvinoda/GITS/blob/master/docs/commit.md)
-7. [gits create_branch](https://github.com/pvinoda/GITS/blob/master/docs/create_branch.md)
-8. [gits logging](https://github.com/pvinoda/GITS/blob/master/docs/logging.md)
-9. [gits undo](https://github.com/pvinoda/GITS/blob/master/docs/undo.md)
-10. [gits untrack](https://github.com/pvinoda/GITS/blob/master/docs/untrack.md)
-11. [gits track](https://github.com/pvinoda/GITS/blob/master/docs/track.md)
-12. [gits delete](https://github.com/pvinoda/GITS/blob/master/docs/delete.md)
-13. [gits sync](https://github.com/pvinoda/GITS/blob/master/docs/sync.md)
-14. [gits switch](https://github.com/pvinoda/GITS/blob/master/docs/switch.md)
-15. [gits status](https://github.com/pvinoda/GITS/blob/master/docs/status.md)
-16. [gits branch](https://github.com/pvinoda/GITS/blob/master/docs/branch.md)
-17. [gits diff](https://github.com/pvinoda/GITS/blob/master/docs/diff.md)
-18. [gits init](https://github.com/pvinoda/GITS/blob/master/docs/init.md)
-19. [gits merge](https://github.com/pvinoda/GITS/blob/master/docs/merge.md)
-20. [gits push](https://github.com/pvinoda/GITS/blob/master/docs/push.md)
-21. [gits pull](https://github.com/pvinoda/GITS/blob/master/docs/pull.md)
-22. [gits stash](https://github.com/pvinoda/GITS/blob/master/docs/stash.md)
-23. [gits squash](https://github.com/pvinoda/GITS/blob/master/docs/squash.md)
-
-These links now point to the "master" branch instead of "phase2_se23_team71" in your GitHub repository.
 
 ## Pydoc implementation
-We have tried to write as much documentation as possible. You can use pydoc to go through the documentation. 
-For example if you want to go through all the documentation for all files in code/ directory, do the following: 
+For easier access of Documentation use pydoc, run the following command, it will take you to a browser where you can view the documentation for all the files and directories.
 
 `cd code`<br>
 `python3 -m pydoc -b `
 
-This will open up a browser and you can see all the files. You can click on a particular file to access the 
-documentation associated with that file.
 
 This repository is made for CSC 510 Software Engineering Course at NC State University.
 
 
-## Experimentation setup for phase 3
 
-This project aims to ease the developers efforts while interacting with version control system Git. 
-Here are few motivation points behind coming up with this idea:
-- Few git command names are very misleading from the end user's perspective. Consider this, ```git checkout``` command is used for both switching the branches and removing changes present inside working directory.
-- Based on the development practice used by various teams, there are some tasks which requires the execution of more than one command to complete the task. This process can be easily automated such that developer only need to execute a single command to get their work done.
-- There are almost always the cases that because of not much efficient syncing techniques, code pushed to the remote repository results in conflict while merging. It is always best practice to solve any such merge conflicts on the local repo rather than the remote one.
-
-To solve the issues described above, we came up with the project **gits** that stands for **git-Simplified**.
-So, this experiment aims to compare various aspects to traditional git and our proposed gits.
 
 ### Participation
 
@@ -126,44 +144,21 @@ However, to remove any unwanted bias here as well, divide the participants in tw
 
 Ask each participants to setup the gits inside their local machine before starting the study using steps shown above.
 
-### Tasks list
-Here is basic draft of the tasks that covers almost each enhancement. 
-Feel free to edit this list as per your convenience. Add few tasks if you got more time for the experiment.
+### Use these Commands to harness the power of GITS
+Use these commands to test GITS
 
-- Create a test repository that can be used by participants to complete their tasks.
-- Ask participant to clone the repository on their local machine.
-- Ask participant to set their git profile name and email to "dummy_name" and "dummy@name.com" respectively. Once they are done, ask them to switch it back to the original ones.
+- Create a test repo to test all the functionalities.
+- Set the git profile name and email to "dummy_name" and "dummy@name.com" respectively. Once they are done,switch it back to the original ones.
 - Create two branches with name: branch1 and branch2.
-- list all the branches.
-- From current branch, switch to the branch1.
-- create a file named "foo.txt" and write some text in it.
-- track the file "foo.txt" so that it gets considered for the next commit.
-- Create another file named "bar.txt" and add some text in it.
-- track this file "bar.txt" so that it gets considered for the next commit.
-- commit these changes with appropriate commit message.
-- make some change to the "bar.txt" and track those changes so that they get considered for the next commit.
-- You found some issues with changes to this file and now you don't want it to be considered for the next commit. remove those changes from commit area.
-- Also remove those changes from working directory.
-- commit these changes with appropriate commit message and switch to the main branch.
-- merge changes from the branch1 into this main branch and push those changes to the remote main branch.
-- Now switch to branch2.
-- Main branch has changed since we created this branch so this branch is working behind in changes. Make this branch up to date with local main branch.
-- You just got to know that some other developer merged his changes to the remote main branch. Since you have checked out from the main branch, you also want those changes in development branch. So, make your branch up to date with remote main branch.
-- Now switch to main branch again.
-- create new file "temp.txt" and write some text in it and commit those changes.
-- You just realized you directly made changes to the main branch rather than your development branch by mistake. Undo those changes by making current main branch same as remote main branch.
-- You just got to know that someone merged their changes to the remote main branch. Sync your main branch.
-- Last commit that is present in the main branch is not working well so you want to remove changes made by that commit entirely on both: local and remote.
-- You are doing great till now but assume a hypothetical scenario where you have made a mess in your local repo and want to delete the current repo and fork it all again.
+- Add some dummy text files to branch1. Commit these changes with an appropriate commit message.
+- Switch to branch2 and add some text files to this branch.
 
 
-### Quantitative measures
-Here are some measures that can help compare the results between traditional git and gits.
-1. Time taken to finish a particular task.
-2. Number of commands executed to complete each task.
-3. Number of time participants referred to the documentation or any other resources.
 
-### Qualitative measures
-Along with quantitative measures described above, few qualitative measures can help to assess the performance better.
-1. Familiarity with traditional git
-2. hardness of the task
+### How to judge GITS??
+
+1. Does this improve the way you work with git?? 
+2. Did the process of creating a branch, committing, pushing changes and visualising the branch felt easier ??. 
+3. Has the GUI made it easier for you to interact with your repo.??
+4. Has advanced commit functionality helped you in committing efficiently?? Does this functionality make your commit history more intuitive and understanding
+
