@@ -34,7 +34,7 @@ We hope that these features will help amateurs as well as experienced developers
    We provide a simple yet effective GUI which takes in commands as input and then executes them. This makes it easy for users unfamiliar with the terminal.
 
 2. ### Advanced Commit Functionality
-   
+   We provide a functionality to automatically add most used commit messages. Simplifying the usage of git commit command
   
 4. ### Squash Command
    We introduce the gits squash command that combines changes of last N commits and squash them into one. The number N can be provided using the -N argument, and the combined message for the commit is provided using the -M argument 
@@ -131,19 +131,6 @@ For easier access of Documentation use pydoc, run the following command, it will
 This repository is made for CSC 510 Software Engineering Course at NC State University.
 
 
-
-
-### Participation
-
-Basic idea here is to let the participants finish the tasks present in the tasks list mentioned below, and observe whether gits made this process easier or not. 
-This is higher level idea for this study.
-There are two ways to choose who will use git and who will use gits.
-1. If you have significant number of participants, you can divide them up into two groups. Participants from one group will use Gits to complete the set of tasks while participants from second group will use traditional Git to finish their tasks. 
-to achieve some great results, participants with lesser git knowledge should be assigned to later group who will be using git to finish their task. That would lessen the bias in observations since people would be already familiar with git rather than gits.
-2. If number of participants are limited and have enough time, you can let each participants finish the set of tasks twice. Once using traditional git and then using gits.
-However, to remove any unwanted bias here as well, divide the participants in two groups. first group should use the git first and then gits. Second group should finish the tasks using gits first and then using git.
-
-Ask each participants to setup the gits inside their local machine before starting the study using steps shown above.
 
 ### Use these Commands to harness the power of GITS
 Use these commands to test GITS
