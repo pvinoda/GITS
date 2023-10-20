@@ -4,5 +4,5 @@ coverage
 flake8==3.8.4
 pre-commit
 black
-graphviz
-big-picture
+#graphviz
+#big-picture
