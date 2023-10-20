@@ -16,12 +16,12 @@
 
 [![](https://github.com/pvinoda/GITS/blob/master/GITSvGIT.jpeg)](https://youtu.be/6Y8_RQecnZ8 "GITS demo")
 
-# The What??
-## About GITS
+#The What??
+##About GITS
 GITS simplifies the often cumbersome and confusing commands of git to provide a user friendly experience to beginners in version control, as well as making it time efficient for proficient users. GITS also adds multiple features on top of git functionalities to provide a richer experience. 
 
 
-# The Why ??
+#The Why ??
 
 ##Motivation
 Git is the most popular version control system used by developers all around the world. Given its ubiquity, most newbies find it daunting to understand some of the commands in Git.
