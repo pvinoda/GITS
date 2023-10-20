@@ -30,16 +30,16 @@ We hope that these features will help amateurs as well as experienced developers
 
 ## Key features
 
-1. ###Interactive GUI
+1. ### Interactive GUI
    We provide a simple yet effective GUI which takes in commands as input and then executes them. This makes it easy for users unfamiliar with the terminal.
 
-2. ###Advanced Commit Functionality
+2. ### Advanced Commit Functionality
    
   
-4. ###Squash Command
+4. ### Squash Command
    We introduce the gits squash command that combines changes of last N commits and squash them into one. The number N can be provided using the -N argument, and the combined message for the commit is provided using the -M argument 
    
-5. ###Advanced Visualisation Capabilities
+5. ### Advanced Visualisation Capabilities
    We introduce gits viz command that provides the git log functionality along with the feature that allows users to download a Directed Acyclic Graph Representation of the hierarchy of tags and branches 
 
 ## Potential Ideas for Phase 3
