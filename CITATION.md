@@ -1,14 +1,14 @@
 Cite as
 
-Tanay Agrawal, Amol Gautam, & Sneha192. (2020, August 16). amolgautam25/se20_group17: Initial Commit (Version v1). Zenodo.https://doi.org/10.5281/zenodo.4029213
+Harikrishnan Venkatesh, Kruthik Jonnalagadda Thyagaraja,Prabhanjan Vinoda Bharadwaj, & Sai kishore Honnavalli Ravi Shankar (2022, August 21). pvinoda/se23_group71: Initial Commit (Version v1). Zenodo.https://doi.org/10.5281/zenodo.10023187
 
 ```
-@article{amolgautam25:GITS,
-  title     = {se20_group17: Initial Commit (Version v1)},
-  DOI       = {10.5281/zenodo.4029213}, 
-  author    = {Tanay Agrawal, Amol Gautam, & Sneha192}, 
+@article{pvinoda:GITS,
+  title     = {se23_group17: Initial Commit (Version v1.0.1)},
+  DOI       = {10.5281/zenodo.10023187}, 
+  author    = {Harikrishnan Venkatesh, Kruthik Jonnalagadda Thyagaraja,Prabhanjan Vinoda Bharadwaj, & Sai kishore Honnavalli Ravi Shankar}, 
   publisher = {Zenodo}, 
-  year      = {2020}, 
+  year      = {2023}, 
   month     = {August}
 }
 ```

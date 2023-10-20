@@ -11,6 +11,9 @@
     - gits commit
     - gits create_branch
     - gits logging
+    - gits viz
+    - gits stash
+    - gits squash
 2. Currently, this project can only be executed on Linux or Mac operating system's.     
 
 ## Things need to be done:
