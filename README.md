@@ -150,4 +150,3 @@ Use these commands to test GITS
 3. Has the GUI made it easier for you to interact with your repo.??
 4. Has advanced commit functionality helped you in committing efficiently?? Does this functionality make your commit history more intuitive and understanding
 
-
