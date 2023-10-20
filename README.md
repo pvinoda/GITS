@@ -14,7 +14,7 @@
 
 ![Lines of code](https://img.shields.io/tokei/lines/github/harshitpatel96/GITS)
 
-[![](/Users/saikishorehr/Documents/NCSU/SE/Phase2/GITS/GITSvGIT.jpeg)](https://youtu.be/6Y8_RQecnZ8 "GITS demo")
+[![](https://github.com/pvinoda/GITS/blob/master/GITSvGIT.jpeg)](https://youtu.be/6Y8_RQecnZ8 "GITS demo")
 
 # The What??
 ## About GITS
