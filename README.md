@@ -97,6 +97,7 @@ These are the functionalities that we have implemented. The links are updated to
 1. [gits profile](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/profile.md)
 2. [gits rebase](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/rebase.md)
 3. [gits stash](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/stash.md)
+4. [gits squash](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/squash.md)
 5. [gits viz](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/viz.md)
 6. [gits reset](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/reset.md)
 7. [gits upstream](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/upstream.md)
