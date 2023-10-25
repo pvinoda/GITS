@@ -142,6 +142,11 @@ Use these commands to test GITS
 - Create two branches with name: branch1 and branch2.
 - Add some dummy text files to branch1. Commit these changes with an appropriate commit message.
 - Switch to branch2 and add some text files to this branch.
+- Use gits viz command without any arguments to visualize the commit history on the terminal
+- Compare and contrast the output with gits viz command with arguments. Understand how the image depicts commit history and branch hierarchy.
+- Make multiple changes to the file and use gits commit to understand the power of advanced commit functionalities of gits.
+- Use gits GUI tool to execute the above commands.
+- Make multiple commits and use gits squash to squash all the commits into one single commit. 
 
 
 
