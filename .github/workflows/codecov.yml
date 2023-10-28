@@ -12,16 +12,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # - name: Set up Python
-      #   uses: actions/setup-python@v2
-      #   with:
-      #     python-version: 3.8
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install pytest-cov
 
       - name: Run tests
-        run: pytest --cov=test
+        run: |
+          cd ./test
+          pytest --cov-report xml:cov.xml --cov=./ ./
 
       - name: Upload coverage to Codecov
         env:
